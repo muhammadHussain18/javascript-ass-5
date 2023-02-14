@@ -38,7 +38,7 @@
 // // Qno# 7
 
 // var edu = ["SSC","HSC","BCS","BS","BCOM","MS","M phill","PHD"]
-// document.write(edu )
+// document.write(edu + "</br>" )
 
 
 
@@ -77,20 +77,15 @@
 
 
 
-
-
-
-
-
 // Qno# 10
 
 
 
+// var scores = [320,230,480,120]
 
+// scores.sort()
 
-
-
-
+// document.write(scores)
 
 
 
@@ -110,9 +105,92 @@
 
 // // Qno# 12
 
-// var line = ["This " , "is","my","cat"]
+// var line = ["This ", "is","my","cat"]
+ 
 
-// document.write(line[0] + " " + line[1] + " " + line[2] + " " + line[3])
+// document.write(line.join(" "))
+
+
+
+// // Qno# 13
+
+// var device = ["keyboard","mouse","printer","monitor"]
+
+// device.shift()
+// device.shift()
+// device.shift()
+// device.shift()
+
+// console.log(device)
+
+
+
+// // Qno# 14
+
+
+// var device = ["keyboard","mouse","printer","monitor"]
+
+
+// device.pop()
+// device.pop()
+// device.pop()
+// device.pop()
+
+
+// console.log(device)
+
+
+
+// // Qno# 15
+
+// var dev = ["apple","samsung","oppo","vivo","realme"]
+
+// document.write("<select>" + "<option>" + dev[0] + "<option />" + "<option>" + dev[1] + "<option />" +  "<option>" + dev[2] + "<option />"+ "<option>" + dev[3] + "<option />" + "<select />" )
+
+
+
+
+// // chapter # 17 - 20
+
+
+// // Qno# 1
+
+// var arry = [[[]]]
+
+// console.log(arry)
+
+
+// // Qno# 2
+
+// var arr = [[ 0, 1, 2, 3],[ 1, 0, 1, 2],[ 2, 1, 0, 1,],]
+
+// arr.join()
+
+// document.write(arr[0]  + "<br/>")
+// document.write(arr[1] + "<br/>")
+// document.write(arr[2] + "<br/>")
+
+
+// // Qno# 3
+
+// for(var i = 1; i < 11 ; i++){
+//     document.write(i + "<br />")
+// }
+
+
+
+
+// // Qno# 4
+
+// var tab = prompt("enter")
+
+// for(i = 1; i < 11; i++)
+// document.write( tab +" " + "x" + " "+ i + " " + "=" + tab*i  + "<br />")
+
+
+
+
+
 
 
 
